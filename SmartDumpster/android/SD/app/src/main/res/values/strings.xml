@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SD</string>
+    <string name="id_server">ID server</string>
+    <string name="connetti_server">CONNETTI SERVER</string>
+    <string name="stato_server">non connesso al server</string>
+    <string name="cerca_bt">CERCA BT</string>
+    <string name="connetti_bt">CONNETTI BT</string>
+    <string name="stato_bt">stato bt ....</string>
+    <string name="aggiunti_deposito">AGGIUNTI DEPOSITO</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="seleziona_tipo_rifiuto">SELEZIONA TIPO RIFIUTO</string>
+    <string name="timer">TIMER</string>
+    <string name="_0">0</string>
+    <string name="aggiungi_30_secondi">AGGIUNGI 30 SECONDI</string>
+    <string name="peso">PESO</string>
+    <string name="calcola_peso">CALCOLA PESO</string>
+    <string name="effettua_deposito">EFFETTUA DEPOSITO</string>
+    <string name="togglebutton">ToggleButton</string>
+</resources>

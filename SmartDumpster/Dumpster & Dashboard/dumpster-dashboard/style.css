@@ -1,0 +1,118 @@
+body {
+    border: #565656;
+    padding: 0% 20%;
+    width: 60%;
+    margin: 0 5px;
+    background-color: rgba(250, 250, 250, 0.356);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+body>header {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #ff5e2b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+fieldset {
+    background-color: #ebebeb;
+    width: 75%;
+    margin: 2% 12%;
+    border: #8a8a8a solid 10px;
+    border-radius: 10px;
+}
+
+fieldset>legend {
+    color: #8a8a8a;
+    text-align: left;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+p {
+    color: #565656;
+    font-size: 18px;
+}
+
+button {
+    border-radius: 20px;
+    padding: 10px;
+    border: #565656 solid 3px;
+    color: #565656;
+    font-size: 16px;
+}
+
+#available {
+    border: darkgreen solid 3px;
+    color: darkgreen;
+    background-color: #8afc6e;
+}
+
+#available:hover {
+    background-color: green;
+    border: green solid 3px;
+    color: #eeeeee;
+}
+
+#not-available:hover {
+    background-color: rgb(161, 0, 0);
+    border: rgb(161, 0, 0) 3px;
+    color: #eeeeee;
+}
+
+#not-available {
+    border: red solid 3px;
+    color: rgb(117, 0, 0);
+    background-color: #ffb7a1;
+}
+
+#statob:hover,
+#utilizzob:hover {
+    background-color: #6d6d6d;
+    border: #565656 solid 3px;
+    color: #ffffff;
+}
+
+
+/* stato del dumpster */
+
+fieldset#stato>p,
+fieldset#stato>button {
+    margin-left: 1%;
+}
+
+p#disponibilita {
+    /* disp/non disp */
+    color: green;
+    font-weight: bold;
+}
+
+
+/* ripristino stato dumpster */
+
+fieldset#ripristino {
+    display: inline-flex;
+}
+
+fieldset#ripristino>label {
+    margin: 2%;
+    margin-left: 10%;
+}
+
+
+/* utilizzo dumpster */
+
+p#giorni {
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+
+fieldset#utilizzo button {
+    margin: 5% 0%;
+}

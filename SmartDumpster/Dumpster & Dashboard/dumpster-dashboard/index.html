@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="javascript.js" type="text/javascript"></script>
+    <title>Dumpster - Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <h1>PANNELLO DI CONTROLLO</h1>
+    </header>
+
+    <fieldset id="ripristino">
+        <legend>RESET DI STATO</legend>
+        <label for="available">Forza stato disponibile: </label><button type="button" id="available">Disponibile</button>
+        </br>
+        <label for="not-available">Forza stato non disponibile: </label><button type="button" id="not-available">Non disponibile</button>
+    </fieldset>
+
+    <fieldset id="stato">
+        <legend>STATO ATTUALE DEL SISTEMA</legend>
+        <p id="disponibilita" class="disp">Disponibile</p>
+        <p id="numDep">Numero depositi fatti oggi: </p>
+        <p id="qta">Peso del contenuto corrente: </p>
+        </br>
+        <button type="button" id="statob">Ottieni dati</button>
+    </fieldset>
+
+    <fieldset id="utilizzo">
+        <legend>STATISTICHE</legend>
+        <p id="sel" style="font-weight : bold"> Selezionare un range temporale nei campi sottostanti:</p>
+        <p id="pStartDate">Data di inizio:</p>
+        <input type="date" id="startDate" name="startDate" value="2020-01-01">
+        <br>
+        <p id="pEndDate">Data di fine:</p>
+        <input type="date" id="endDate" name="endDate" value="2020-10-31">
+        <br>
+        <button id="utilizzob">Ottieni statistiche</button>
+
+        <p id="sel" style="font-weight : bold"> I dati da te richiesti:</p>
+        <p id="numDepGiorni">Numero depositi totali: </p>
+        <p id="qtaGiorni">Quantità depositate: </p>
+    </fieldset>
+</body>
+
+</html>
